@@ -27,7 +27,7 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 # 🔗 Acesse o site com o link abaixo.
 
-- [To Do List | Lembrete do dia a dia](https://lembrete-sigma.vercel.app/)
+- [Lembrete do dia a dia](https://lembrete-sigma.vercel.app/)
 
 - [Vite](https://vitejs.dev/)
 - [React Js](https://legacy.reactjs.org/)
