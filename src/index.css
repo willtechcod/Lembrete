@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #f9f9f9;
+  }
+
+  body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 30px;
+    color: #f9f9f9;
+    background-color: #c6c6c6;
+    background-image: url("https://images.photowall.com/products/48217/space-odyssey.jpg?h=699&q=85");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .app {
+    max-width: 600px;
+    margin: 0 auto 150px;
+    background-color: #646cff;
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+
+  body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 30px;
+    color: #f9f9f9;
+    background-color: #E6E6FA;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+    max-width: 42ch;
+  }
+  
+  input {
+    box-sizing: border-box;
+  }
+  
+  button {
+      background-color: #faf9f8;
+      color: #faf8f9;
+      font-weight: bold;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: 0.3s;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  .todo-list {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f9f9f9;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .complete {
+    background-color: #5cb85c;
+  }
+  
+  .adicionar{
+    background-color: #f9f9f9;
+    color: #262626;
+  }
+  .remove {
+    background-color: #d9534f;
+    margin-left: 4px;
+  }
+  
+  .todo-form {
+    padding-bottom: 1.5rem;
+  }
+
+  .ordem {
+    background-color: #242424;
+  }
+}
+
