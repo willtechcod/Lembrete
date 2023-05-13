@@ -120,73 +120,8 @@ input, select {
 
 
 
-/*=================== 375px ===========================*/
-@media (max-width: 375px){
-  body {
-    padding: 12px;
-  }
-
-  .app {
-    max-width: auto;
-    margin: 0 auto 10px;
-    background-color: #646cff;
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-
-  .todo-list {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #f9f9f9;
-  }
-  
-  .todo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #161616;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .filter,
-.search {
-  border-bottom: 1px solid #F9F9F9;
-  margin-bottom: 8px;
-  padding-bottom: 8px;
-}
-
-.filter-options {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.filter-options div {
-  flex: 1 1 0;
-}
-
-h1 {
-  text-align: center;
-  font-size: 18px;
-}
-h2 {
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-  p {
-    margin: 5px 0;
-    max-width: 20ch;
-    font-size: 13px;
-  }
-
-}
-
 /*==================== 550px ==========================*/
-@media (max-width: 550px){
+@media screen and (max-width: 550px){
   body {
     padding: 12px;
   }
@@ -235,146 +170,16 @@ h2 {
 
 h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 h2 {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
   p {
     margin: 5px 0;
-    max-width: 20ch;
-    font-size: 13px;
-  }
-
-}
-
-/*==================== 767px ==========================*/
-@media (max-width: 767px){
-  body {
-    padding: 12px;
-  }
-
-  .app {
-    max-width: auto;
-    margin: 0 auto 10px;
-    background-color: #646cff;
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-
-  .todo-list {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #f9f9f9;
-  }
-  
-  .todo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #161616;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .filter,
-.search {
-  border-bottom: 1px solid #F9F9F9;
-  margin-bottom: 8px;
-  padding-bottom: 8px;
-}
-
-.filter-options {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.filter-options div {
-  flex: 1 1 0;
-}
-
-h1 {
-  text-align: center;
-  font-size: 22px;
-}
-h2 {
-  margin-bottom: 10px;
-  font-size: 17px;
-}
-
-  p {
-    margin: 5px 0;
-    max-width: 15ch;
-    font-size: 16px;
-  }
-
-}
-
-/*==================== 991px ==========================*/
-@media (max-width: 991px){
-  body {
-    padding: 30px;
-  }
-
-  .app {
-    max-width: auto;
-    margin: 0 auto 10px;
-    background-color: #646cff;
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-
-  .todo-list {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f9f9f9;
-  }
-  
-  .todo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #161616;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .filter,
-  .search {
-    border-bottom: 1px solid #F9F9F9;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .filter-options {
-    display: flex;
-    justify-content: space-between;
-    gap: 3rem;
-  }
-
-.filter-options div {
-  flex: 1 1 0;
-}
-
-h1 {
-  text-align: center;
-  font-size: 22px;
-}
-h2 {
-  margin-bottom: 10px;
-  font-size: 17px;
-}
-
-  p {
-    margin: 5px 0;
-    max-width: 15ch;
+    max-width: 14ch;
     font-size: 16px;
   }
 
