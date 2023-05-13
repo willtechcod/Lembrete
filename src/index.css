@@ -5,7 +5,6 @@
   
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,6 +16,70 @@
 @media (prefers-color-scheme: light) {
   :root {
     color: #f9f9f9;
+  }
+  
+  @media (max-width: 375px){
+    body {
+      padding: 12px;
+    }
+  
+    .app {
+      max-width: auto;
+      margin: 0 auto 10px;
+      background-color: #646cff;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+  
+    .todo-list {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #f9f9f9;
+    }
+    
+    .todo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #161616;
+      border-radius: 10px;
+      padding: 5px;
+      margin-bottom: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .filter,
+  .search {
+    border-bottom: 1px solid #F9F9F9;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  
+  .filter-options div {
+    flex: 1 1 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+    p {
+      margin: 5px 0;
+      max-width: 20ch;
+      font-size: 13px;
+    }
+  
   }
 
   body{
