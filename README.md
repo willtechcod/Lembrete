@@ -27,10 +27,10 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 # 🔗 Acesse o site com o link abaixo.
 
-- [To Do List | Lembrete do dia a dia](https://www.willtechcod.com/)
+- [To Do List | Lembrete do dia a dia](https://lembrete-sigma.vercel.app/)
 
-- [Vite](https://getbootstrap.com/)
-- [React.Js](https://styled-components.com/)
+- [Vite](https://vitejs.dev/)
+- [React Js](https://legacy.reactjs.org/)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
@@ -39,7 +39,7 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 ```bash
 
 #Clonando o repositório do Github:
-$ git clone https://github.com/willtechcod/site.portfolio.git
+$ git clone https://github.com/willtechcod/Lembrete.git
 
 #Acessar pasta Web:
 $ cd todo-list
