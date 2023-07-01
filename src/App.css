@@ -3,15 +3,18 @@
     padding: 30px;
     color: #f9f9f9;
     background-color: #c6c6c6;
-    background-image: url("https://images.photowall.com/products/48217/space-odyssey.jpg?h=699&q=85");
+    //background-image: url("https://images.photowall.com/products/48217/space-odyssey.jpg?h=699&q=85");
+    background-image: url("https://edu.angeloni.com.br/assets/images/angeloni_edu_logo.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    margin-top: 110px;
+    background-size: 100% 20%;
   }
 
 
 .app {
-  max-width: 600px;
+  max-width: 580px;
+  height: auto;
   margin: 0 auto 130px;
   background-color: #646cff;
   padding: 20px 30px;
@@ -127,7 +130,8 @@ input, select {
   }
 
   .app {
-    max-width: auto;
+    max-width: 380px;
+    height: auto;
     margin: 0 auto 10px;
     background-color: #646cff;
     padding: 5px 10px;

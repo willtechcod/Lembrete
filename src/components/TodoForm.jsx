@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import  { useState } from 'react';
 
 const TodoForm = ({addTodo}) => {
 
@@ -30,8 +30,13 @@ const TodoForm = ({addTodo}) => {
             >
                 <option value="">Selecione uma categoria</option>
                 <option value="Piking">Piking</option>
-                <option value="Contato">E-mail ou Telefonar</option>
+                <option value="E-mail ou Telefonar">E-mail ou Telefonar</option>
+                <option value="Ajuste de notas ou CCE">Ajuste de notas ou CCE</option>
+                <option value="Contato com fornecedores">Contato com fornecedores</option>
                 <option value="Relatorios">Relatórios</option>
+                <option value="Quebras">Quebras</option>
+                <option value="Ajuste de notas">Ajuste de notas</option>
+                <option value="Pedir ou Ajustar materiais">Pedir ou Ajustar materiais</option>
             </select>
             <button className='adicionar' type="submit">Criar Lembrete</button>
         </form>

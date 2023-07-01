@@ -8,28 +8,17 @@ import Filter from './components/Filter';
 
 function App() {
   const [todos, setTodos] = useState([
+    
     {
       id: 1,
-    text: "Criar piking da mercadoria, rua 29 esquerda 0 1",
-    category: "Piking",
+    text: "Entrar em Contato com DP, referente ao colaborador 0061177 ex:",
+    category: "Contato",
     isCompleted: false,
   },
     {
       id: 2,
-    text: "Entrar em Contato com DP, referente ao colaborador 0061177",
-    category: "Contato",
-    isCompleted: false,
-  },
-    {
-      id: 3,
-    text: "Criar um relatório mensal de entrada e saída de paletes",
+    text: "Criar um relatório mensal de entrada e saída de paletes ex:",
     category: "Relatorios",
-    isCompleted: false,
-  },
-    {
-      id: 4,
-    text: "Enviar e-mail para freteiro TSV, referente cargas viradas.",
-    category: "Contato",
     isCompleted: false,
   },
   ]);
